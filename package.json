@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-functions-cloudflare-els",
+  "version": "1.0.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Cloudflare Inc.",
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^2.0.6",
+    "@google-cloud/storage": "^2.3.4",
+    "node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "@google-cloud/nodejs-repo-tools": "1.4.16",
+    "ava": "0.21.0",
+    "proxyquire": "1.8.0",
+    "sinon": "3.0.0"
+  },
+  "cloud-repo-tools": {
+    "requiresKeyFile": true,
+    "requiresProjectId": true
+  }
+}

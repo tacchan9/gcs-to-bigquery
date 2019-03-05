@@ -1,0 +1,17 @@
+[
+  {
+    "name": "abc",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "def",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "ghi",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
